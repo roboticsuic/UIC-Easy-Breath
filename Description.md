@@ -5,8 +5,10 @@ The wearer can manipulate the hand by moving a specific part of their body, in t
 The project is developed on the basis of a previous project that we found in thingiverse (https://www.thingiverse.com/thing:4255247), where we got the breathing assistant model that we decided to print in 3D.
 
 _Objectives_: 
-- Learn the basics of 3D printing and electronics in order to create a prosthetic hand controlled with the Cthulhu Shield sensor.
+- Learn the basics of 3D printing and electronics in order to create a bioengineered breathing assistant for COVID-19.
+- Create an accessible and fast 3D printed device in order to cover the urgent necessities during the pandemia.
 - Use motors and electronic devices in order to understand its functions.
+
 
 _Materials_:
 - **For 3D printing**:
