@@ -130,14 +130,24 @@ _3. Definitions_:
 - Input current: 0-5.0 A.
 - Output current: 0.5 - 4A.
 - Power: 160W
-- Temperature: -10 - 45 degrees.
+- Temperature: -10 to 45 degrees.
 - Weight: 200g.
 - Dimensions: 96x56x33mm.
 - Connections: See picture above.
 
 ![DriverTB6600](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/DriverTB6600.png)
 
-**Voltage conversor**
+**XL4015 DC Voltage Converter**
+- Input Voltage: 4.5V - 38V.
+- OutPut Volatge: 1.25 - 36.5V
+- OutPut power: 75W.
+- Current Voltage: 4,5A.
+- Temperature: -40 to 85 degrees.
+- Operating frequency: 180kHz.
+- Dimensions: 62x38x15 mm.
+- Short circuit protection: Yes
+- Functions: Step-down converter with overcurrent protection.
+![VolatgeConverter](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/VolatgeConverter.jpg)
 
 
 _4. Code_: 
