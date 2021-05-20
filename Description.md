@@ -60,7 +60,7 @@ _2. Materials_:
 _3. Definitions_:
 
 **MKR 1000 WIFI**:
-- Price: 26.50€ [https://store.arduino.cc/arduino-mkr1000-wifi].
+- Price: 26.50€ 
 - Size: Length 61.5mm Width 25mm.
 - Weight: 32gr.
 - Microcontroller: SAMD21 Cortex-MO + 32bit low power ARM MCU.
@@ -82,9 +82,10 @@ _3. Definitions_:
 - Clock Speed: 32.768kHz (RTC), 48MHz.
 - LED_BUILTIN: 6.
 - Full-speed USB Device and embedded Host.
+- ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg)
 
 **Sensor Pressure**:
-- Price: 16,08€ [https://www.mouser.es/ProductDetail/Honeywell/ABPLANN001PG2A5?qs=eRmS5dli9yMyiL1FOruxZA==&gclid=Cj0KCQjwkZiFBhD9ARIsAGxFX8CNozi2j3QXyoOwybug7ET6ZLqn-7Bz02wLNBLJneNBi7AFd-qP9poaAvDyEALw_wcB]
+- Price: 16,08€
 - Manufactures: Honeywell.
 - Model: 001PG2A5.
 - Output Type: I2C, Address 0x28.
