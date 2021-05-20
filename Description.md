@@ -60,7 +60,7 @@ _2. Materials_:
 _3. Definitions_:
 
 **MKR 1000 WIFI**:
-- Price: €26.50 [https://store.arduino.cc/arduino-mkr1000-wifi].
+- Price: 26.50€ [https://store.arduino.cc/arduino-mkr1000-wifi].
 - Size: Length 61.5mm Width 25mm.
 - Weight: 32gr.
 - Microcontroller: SAMD21 Cortex-MO + 32bit low power ARM MCU.
@@ -84,6 +84,18 @@ _3. Definitions_:
 - Full-speed USB Device and embedded Host.
 
 **Sensor Pressure**:
+- Price: 16,08€ [https://www.mouser.es/ProductDetail/Honeywell/ABPLANN001PG2A5?qs=eRmS5dli9yMyiL1FOruxZA==&gclid=Cj0KCQjwkZiFBhD9ARIsAGxFX8CNozi2j3QXyoOwybug7ET6ZLqn-7Bz02wLNBLJneNBi7AFd-qP9poaAvDyEALw_wcB]
+- Manufactures: Honeywell.
+- Model: 001PG2A5.
+- Output Type: I2C, Address 0x28.
+- Supply Voltage:  5.0 Vdc.
+- Use: Medical Ventilators.
+- Pressure Range: 0 psi to 1 psi.
+- Pressure: Gauge.
+- Weight: 4,250 g.
+- Max. tension: 5,25V.
+- Min. tension: 4,75V.
+- Pinouts: Check table below.
 
 
 
