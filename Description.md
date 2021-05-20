@@ -24,8 +24,9 @@ _3.Softwares_:
  ![Estructura_Respirador](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Estructura_Respirador.JPG)
  
 
-On the other hand, SolidWorks was constantly used during our project due to the improvements that our group decided to do. Firstly, we wanted to incorporate our logo into certain structures, particularly in the blue ones. To do that, we used the SolidWorks program to create a new plane in the upper surface, and insert the corresponding text. The difficult part was to figure out which direction was the perfect one, due to the face-mask connector would be seen in the opposite direction. However, we resolve this drawback by far.
-! [Piezas_Personalizadas] (https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Piezas_Personalizadas.JPG)
+On the other hand, SolidWorks was constantly used during our project due to the improvements that our group decided to do. To do that, we used the _SolidWorks_ program to create a new plane in the upper surface, and insert the corresponding text. The difficult part was to figure out which direction was the perfect one, due to the face-mask connector would be seen in the opposite direction. On the other hand, we also incorporare our logo in the frontal part of the box and our surnames in the lateral part of it.
+![Piezas_Personalizadas](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Piezas_Personalizadas.JPG)
+
 
 Secondly, this program was also used to create the needed structure to connect the breath assistant with the medical tubs. To do it, we measured the most external part of both devices with a vernier caliper, and with such dimensions, we created the connector. PHOTO
 
