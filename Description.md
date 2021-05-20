@@ -33,5 +33,4 @@ Thirdly, we decided that one of the initial 12 structures had to have all its su
 
 Finally, we wanted to create a box to keep all the tools together and well-organized. But this box couldn’t be as the typical ones, but with a certain orientation in one of the faces as we also have a screen to fit inside of it. Therefore, the box had to be composed of different parts. First, we had to modify a preexisting project piece so the box could be attached to the breath machine. Secondly, the back part was created and also the laterals. Finally, the screen face  was designed with all the modifications needed to be able to use all buttons. As can be seen in the image below, all parts have rectangle holes or rectangular extrusions so they can be ansamble together and form the desired box.
 In order to know if the box was designed properly, we assembled all the new pieces with Solid works, and the result is the following image.  
-
-
+ ![Caja_Imprimida](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Caja_Imprimida.JPG)
