@@ -106,6 +106,8 @@ _3. Definitions_:
 - Source: 3.3V.
 - Weight: 2.2084 g.
 - Connection: Qwiic.
+
+
 ![Screen%20SparkFun%20SerLCD%20%20](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Screen%20SparkFun%20SerLCD%20%20.jpg)
 
 **Stepper motor NEMA 17**
