@@ -82,6 +82,7 @@ _3. Definitions_:
 - Clock Speed: 32.768kHz (RTC), 48MHz.
 - LED_BUILTIN: 6.
 - Full-speed USB Device and embedded Host.
+
 - ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg)
 
 
