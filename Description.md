@@ -99,6 +99,26 @@ _3. Definitions_:
 
 ![Pinouts_PressureSensor](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Pinouts_PressureSensor.png)
 
+**Screen SparkFun SerLCD**
+- Price: 16,37€.
+- Size: 16x2mm, RGB on Black Display.
+- Manufactures: SparkFun.
+- Source: 3.3V.
+- Weight: 2.2084 g.
+- Connection: Qwiic.
+
+
+**Stepper motor NEMA 17**
+- Price: 21,66€.
+- Size: 42.3x48mm, without including the axis.
+- Weight: 350 g.
+- Axis diameter: 5mm.
+- Axis length: 25mm.
+- Steps per turn: 200 (1.8º/step.
+- Current: 1.2 Amps per winding.
+- Voltage: 4 V.
+- Resistance: 3.3 Ohm per bobbin.
+
 
 
 _4. Code_: 
