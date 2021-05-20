@@ -83,7 +83,7 @@ _3. Definitions_:
 - LED_BUILTIN: 6.
 - Full-speed USB Device and embedded Host.
 
-- ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg =250x250)
+- ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg s=200)
 
 
 **Sensor Pressure**:
@@ -135,7 +135,7 @@ _3. Definitions_:
 - Dimensions: 96x56x33mm.
 - Connections: See picture above.
 
-![DriverTB6600](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/DriverTB6600.png)
+![DriverTB6600](''https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/DriverTB6600.png'' width="400" height="790")
 
 **XL4015 DC Voltage Converter**
 - Input Voltage: 4.5V - 38V.
