@@ -49,7 +49,7 @@ _2. Materials_:
    - _Prusa Slicer_, to add supports to the pieces before printing.
 
 
-_3.Softwares_: 
+_3. Softwares_: 
 
 **SolidWorks**
 
