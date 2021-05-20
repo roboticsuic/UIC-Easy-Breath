@@ -57,7 +57,7 @@ _2. Materials_:
    - Directionality valves.
    - Filter.
 
-_3. Code: 
+_3. Code_: 
 
 
 _4. Softwares_: 
@@ -91,4 +91,5 @@ _Ultimaker Cura_ is a cutting software, which converts 3D models into G-code fil
 **Prusa Slicer**
 
 _Prusa Slicer_, is a cutting software, which converts 3D models into G-code files, which will provide the 3D printer with all the necessary instructions for printing. We also used this software to print the adaptor but with the correct support in order to be printed accurately. See picture below.
+
 ![Meshmixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Meshmixer.png)
