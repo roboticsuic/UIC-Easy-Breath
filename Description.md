@@ -80,3 +80,7 @@ _Meshmixer_ is a free software able to modify files in order to work with triang
 
 _Ultimaker Cura_ is a cutting software, which converts 3D models into G-code files, which will provide the 3D printer with all the necessary instructions for printing. It converts files in STL format to physical parts. All figures have been converted with Ultimaker Cura before printing. We adapt the printing parameters to improve the PLA printing.    
 
+**Prusa Slicer**
+
+_Prusa Slicer_, is a cutting software, which converts 3D models into G-code files, which will provide the 3D printer with all the necessary instructions for printing. We also used this software to print the adaptor but with the correct support in order to be printed accurately. See picture below.
+![Meshmixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Meshmixer.png)
