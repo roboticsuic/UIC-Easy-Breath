@@ -131,6 +131,7 @@ _3. Definitions_:
 - Temperature: -10 - 45 degrees.
 - Weight: 200g.
 - Dimensions: 96x56x33mm.
+- Connections: See picture above.
 
 ![DriverTB6600](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/DriverTB6600.png)
 
