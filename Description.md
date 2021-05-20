@@ -132,8 +132,7 @@ _3. Definitions_:
 - Weight: 200g.
 - Dimensions: 96x56x33mm.
 
-![DriverTB6600](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/DriverTB6600.jpg)
-
+![DriverTB6600](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/DriverTB6600.png)
 
 **Voltage conversor**
 
