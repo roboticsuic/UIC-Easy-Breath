@@ -8,9 +8,12 @@ The project is developed on the basis of a previous project that we found in Thi
 
 
 _1. Objectives_: 
+
 - Learn the basics of 3D printing and electronics in order to create a bioengineered breathing assistant for COVID-19.
-- Create an accessible and fast 3D printed device in order to cover the urgent necessities during the pandemia.
+- Create an accessible and fast 3D printed device in order to cover the urgent necessities during the COVID pandemic.
 - Use motors and electronic devices in order to understand its functions.
+- Be able to generate an Arduino code able to mimic the preexisting breathing machines, with its corresponding pressure sensor.
+
 
 _2. Materials_: 
 
