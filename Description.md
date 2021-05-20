@@ -103,9 +103,9 @@ _3. Definitions_:
 
 **Screen SparkFun SerLCD**
 - Price: 16,37€.
-- Size: 16x2mm, RGB on Black Display.
+- Dimensions: 16x2mm, RGB on Black Display.
 - Manufactures: SparkFun.
-- Source: 3.3V.
+- InPut Voltage: 3.3V.
 - Weight: 2.2084 g.
 - Connection: Qwiic.
 
@@ -120,7 +120,7 @@ _3. Definitions_:
 - Axis length: 25mm.
 - Steps per turn: 200 (1.8º/step.
 - Current: 1.2 Amps per winding.
-- Voltage: 4 V.
+- Voltage: 4V.
 - Resistance: 3.3 Ohm per bobbin.
  
 ![Stepper%20motor%20NEMA%2017](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Stepper%20motor%20NEMA%2017.jpg)
