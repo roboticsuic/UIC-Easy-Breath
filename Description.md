@@ -21,7 +21,7 @@ _3.Softwares_:
 
  SolidWorks is modeling a computer-aided design (CAD) program that allowed us to create the breath assistant's structure quickly and precisely. The whole structure is composed of 12 different pieces and all of them have to fit with each other, as this project doesn’t contain any screws or ties. However, this part didn’t require a lot of time as all the 12 pieces were previously created by another Catalan University (UPC). A maximum of five days were required for printing the whole structure. The final outcome was the following: 
  
- 
+ ![Estructura_Respirador](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
  
  
  
