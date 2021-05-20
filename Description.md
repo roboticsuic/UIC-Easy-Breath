@@ -38,5 +38,5 @@ In order to know if the box was designed properly, we assembled all the new piec
 **Meshmixer**
 _Meshmixer_ is a free software able to modify files in order to work with triangle meshes. We used it with the purpose of decreasing the adaptor’s resolution. This was due to the need to modify the structure to connect the tubes of the vent system. Moreover, we delete the preexisting letters on its surface to put on our own.
 Finally, we also used this software to print the adaptor but with the correct support in order to be printed accurately. See picture below.
-![MeshMixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/MeshMixer.png)
+![Meshmixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Meshmixer.png)
 
