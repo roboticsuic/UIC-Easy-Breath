@@ -84,8 +84,9 @@ _3. Definitions_:
 - Full-speed USB Device and embedded Host.
 - ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg)
 
-
-**Sensor Pressure**:
+ 
+ 
+- **Sensor Pressure**:
 - Price: 16,08€
 - Manufactures: Honeywell.
 - Model: 001PG2A5.
