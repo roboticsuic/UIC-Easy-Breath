@@ -6,9 +6,10 @@ At the end of 2019 a global pandemic changed our lives: we weren’t able to lea
 
 This project is based on the manufacture of a breathing assistant for COVID-19, a device designed to help those suffering severe breathing difficulties while affected by this virus. The aim of this project is to report how we created an electric device with the ability to provide sufficient oxygen to those patients.
 
-The overall mechanism consists in... (not finished)
+The overall mechanism consists in a 3D printed breathing machine structure connected to several electrical devices and all derived from an Arduino MKR 1000.
 
-The project is developed on the basis of a previous project that we found in Thingiverse (https://www.thingiverse.com/thing:4255247), where we got the breathing assistant model that we decided to print in 3D. In addition, we printed two extra pieces: (1) a display adapted box, where we will fit the display and place all the electronics of the mechanism; and (2) an extra support for the pump end.
+The project is developed on the basis of a previous project that we found in Thingiverse (https://www.thingiverse.com/thing:4255247), where we got the breathing assistant model that we decided to print in 3D. In addition, we modified some of the previous pieces and also printed extra ones. For instance,  a display adapted box to place all the electronics of the mechanism
+
 
 
 _1. Objectives_: 
