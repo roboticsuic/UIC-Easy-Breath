@@ -76,3 +76,7 @@ In order to know if the box was designed properly, we assembled all the new piec
 
 _Meshmixer_ is a free software able to modify files in order to work with triangle meshes. We used it with the purpose of decreasing the adaptor’s resolution. This was due to the need to modify the structure to connect the tubes of the vent system. Moreover, we delete the preexisting letters on its surface to put on our own.
 
+**Ultimaker Cura**
+
+_Ultimaker Cura_ is a cutting software, which converts 3D models into G-code files, which will provide the 3D printer with all the necessary instructions for printing. It converts files in STL format to physical parts. All figures have been converted with Ultimaker Cura before printing. We adapt the printing parameters to improve the PLA printing.    
+
