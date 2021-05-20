@@ -84,8 +84,6 @@ _3. Definitions_:
 - Full-speed USB Device and embedded Host.
 - ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg)
 
- 
- 
 **Sensor Pressure**:
 - Price: 16,08€
 - Manufactures: Honeywell.
@@ -99,8 +97,7 @@ _3. Definitions_:
 - Max. tension: 5,25V.
 - Min. tension: 4,75V.
 - Pinouts: Check table below.
-
-![Pinouts_PressureSensor](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Pinouts_PressureSensor.png)
+- ![Pinouts_PressureSensor](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Pinouts_PressureSensor.png)
 
 **Screen SparkFun SerLCD**
 - Price: 16,37€.
