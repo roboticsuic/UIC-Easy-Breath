@@ -86,7 +86,7 @@ _3. Definitions_:
 
  
  
-- **Sensor Pressure**:
+**Sensor Pressure**:
 - Price: 16,08€
 - Manufactures: Honeywell.
 - Model: 001PG2A5.
