@@ -83,7 +83,7 @@ _3. Definitions_:
 - LED_BUILTIN: 6.
 - Full-speed USB Device and embedded Host.
 
-- ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg = 200x200)
+- ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg =250x250)
 
 
 **Sensor Pressure**:
