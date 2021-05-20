@@ -97,7 +97,8 @@ _3. Definitions_:
 - Min. tension: 4,75V.
 - Pinouts: Check table below.
 
-![Pinouts_PressureSensor](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Pinouts_PressureSensor.png)
+![Pinouts_PressureSensor](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Pinouts_PressureSensor.png)
+
 
 
 _4. Code_: 
