@@ -25,39 +25,42 @@ _2. Materials_:
 - For 3D printing: 
    - Blue, white and grey PLA.
 
-- For the electronics of the breathing assistant:
-   - Arduino MKR1000
-   - Stepper motor NEMA 17 
-   - Spindle Igus step 25
-   - Screw spindle Igus step 25
-   - Driver TB6600
-   - Screen SparkFun SerLCD
-   - Energy source 24V (5A)
-   - Power regulator step down (24V to 10V)
-   - Electric limit switch.
-   - Pressure sensor (001PG2A5)
-   - Buzzer
-   - Voltage converso
-   - Voltage source (2 outcomes)
 
-
- - For the respiratory circuit:
-   - Ambu respiratory bag
-   - Two corrugated tubes
-   - APL valve 
-   - Peep valve 
-   - Directionality valves
-   - Filter
-
-	
- - Softwares:
+- Softwares:
    - _SolidWorks_, to create and modify pieces.
    - _Ultimaker Cura_, to adjust setting parameters of the 3D printer.
    - _Meshmixer_, to detail and modify already created pieces.
    - _Prusa Slicer_, to add supports to the pieces before printing.
 
 
-_3. Softwares_: 
+- For the electronics of the breathing assistant:
+   - Arduino MKR1000.
+   - Stepper motor NEMA 17.
+   - Spindle Igus step 25.
+   - Screw spindle Igus step 25.
+   - Driver TB6600.
+   - Screen SparkFun SerLCD.
+   - Energy source 24V (5A).
+   - Power regulator step down (24V to 10V).
+   - Electric limit switch.
+   - Pressure sensor (001PG2A5).
+   - Buzzer.
+   - Voltage conversor.
+   - Voltage source (2 outcomes).
+
+
+ - For the respiratory circuit:
+   - Ambu respiratory bag.
+   - Two corrugated tubes.
+   - APL valve.
+   - Peep valve.
+   - Directionality valves.
+   - Filter.
+
+_3. Code: 
+
+
+_4. Softwares_: 
 
 **SolidWorks**
 
