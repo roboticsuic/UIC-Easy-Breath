@@ -123,6 +123,12 @@ _3. Definitions_:
  
 ![Stepper%20motor%20NEMA%2017](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Stepper%20motor%20NEMA%2017.jpg)
 
+**Driver TB6600**
+
+
+**Voltage conversor**
+
+
 _4. Code_: 
 
 
