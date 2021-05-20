@@ -124,7 +124,14 @@ _3. Definitions_:
 ![Stepper%20motor%20NEMA%2017](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Stepper%20motor%20NEMA%2017.jpg)
 
 **Driver TB6600**
-
+- Price: 18.90€.
+- Input current: 0-5.0 A.
+- Output current: 0.5 - 4A.
+- Power: 160W
+- Temperature: -10 - 45 degrees.
+- Weight: 200g.
+- Dimensions: 96x56x33mm.
+![DriverTB6600(https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/DriverTB6600.jpg)
 
 **Voltage conversor**
 
