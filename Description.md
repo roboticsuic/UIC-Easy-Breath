@@ -118,8 +118,8 @@ _3. Definitions_:
 - Current: 1.2 Amps per winding.
 - Voltage: 4 V.
 - Resistance: 3.3 Ohm per bobbin.
-
-
+ 
+![Stepper%20motor%20NEMA%2017](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Stepper%20motor%20NEMA%2017.jpg)
 
 _4. Code_: 
 
