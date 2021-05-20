@@ -1,6 +1,10 @@
 # UIC Easy Breath
 ## PROJECT: **Bioengineered breathing assistant for COVID-19**
-This project is based on the manufacture of a breathing assistant for COVID-19, a device designed to help those suffering severe breathing difficulties while affected by COVID-19. The aim of this project is to report how we created an electric device with the ability to provide sufficient oxygen to those patients.
+
+
+At the end of 2019 a global pandemic changed our lives: we weren’t able to leave home, couldn’t hang out with friends… What is more, the medical services collapsed due to the big necessity of medical attention for COVID patients.
+
+This project is based on the manufacture of a breathing assistant for COVID-19, a device designed to help those suffering severe breathing difficulties while affected by this virus. The aim of this project is to report how we created an electric device with the ability to provide sufficient oxygen to those patients.
 
 The overall mechanism consists in... (not finished)
 
