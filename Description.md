@@ -14,9 +14,10 @@ _Objectives_:
 
 
 _Softwares_: 
+
 **SolidWorks**
 
-- SolidWorks is modeling a computer-aided design (CAD) program that allowed us to create the breath assistant's structure quickly and precisely. The whole structure is composed of 12 different pieces and all of them have to fit with each other, as this project doesn’t contain any screws or ties. However, this part didn’t require a lot of time as all the 12 pieces were previously created by another Catalan University (UPC). A maximum of five days were required for printing the whole structure. The final outcome was the following: PHOTO
+ SolidWorks is modeling a computer-aided design (CAD) program that allowed us to create the breath assistant's structure quickly and precisely. The whole structure is composed of 12 different pieces and all of them have to fit with each other, as this project doesn’t contain any screws or ties. However, this part didn’t require a lot of time as all the 12 pieces were previously created by another Catalan University (UPC). A maximum of five days were required for printing the whole structure. The final outcome was the following: PHOTO
 
 On the other hand, SolidWorks was constantly used during our project due to the improvements that our group decided to do. Firstly, we wanted to incorporate our logo into certain structures, particularly in the blue ones. To do that, we used the SolidWorks program to create a new plane in the upper surface, and insert the corresponding text. The difficult part was to figure out which direction was the perfect one, due to the face-mask connector would be seen in the opposite direction. However, we resolve this drawback by far.
  PHOTO
