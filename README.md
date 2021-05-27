@@ -9,6 +9,11 @@ Remember that we are a group of undergraduates students, so this project is educ
  ![Final_project](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Final_project.png)
 
 
+
+**Video**
+ ![Video_Final.mov](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Video_Final.mov)
+
+
 **To contact us**
 
 Laura Olariaga:lolariaga@uic.es 
