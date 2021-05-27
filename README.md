@@ -6,4 +6,4 @@ The overall mechanism consists in a 3D printed breathing machine structure conne
 Here you will find both the 3D files in order to print the structure, and also the specific code to control it.
 Remember that we are a group of undergraduates students, so this project is educational.
 
- ![Structure](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Structure.JPG)
+ ![Final_project](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Final_Project.JPG)
