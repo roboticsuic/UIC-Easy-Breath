@@ -11,7 +11,10 @@ Remember that we are a group of undergraduates students, so this project is educ
 
 **To contact us**
 
-Laura Olariaga:lolariaga@uic.es
-Ana Gatius: gatiusana@uic.es
+Laura Olariaga:lolariaga@uic.es 
+
+Ana Gatius: gatiusana@uic.es 
+
 Èlia Vendrell: eliavendrell@uic.es
+
 Meritxell Clos: meritxell.clos@uic.es
