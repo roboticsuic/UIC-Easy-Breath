@@ -152,6 +152,8 @@ _3. Definitions_:
 
 _4. Code_: 
 
+Our code starts with the needed libraries to connect all the devices together. The needed ones are: _Wire_, _SerLCD_, and _Honeywell.ABP_.
+
 
 _5. Softwares_: 
 
@@ -186,3 +188,13 @@ _Ultimaker Cura_ is a cutting software, which converts 3D models into G-code fil
 _Prusa Slicer_, is a cutting software, which converts 3D models into G-code files, which will provide the 3D printer with all the necessary instructions for printing. We also used this software to print the adaptor but with the correct support in order to be printed accurately. See picture below.
 
 ![Meshmixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Meshmixer.png)
+
+
+_6. Conclusions_:
+
+Once our final project is done, we can conclude the following statemnts:
+
+1.- A mechanical ventilator is able to be printed with a conventional printer machine.
+2.- Arduino is a properly device to control heavy files.
+3.- A structured document helps to improve existents projects.
+4.- 
