@@ -171,7 +171,7 @@ void loop() {
      lcd.print("INHALACION ");
      
      for(int i = 0; i < targetsteps; i++) { //loop de movimiento de 0 a pasos necesairos
-        digitalWrite(dirNeg,HIGH); //inicia movimiento en sentido X positivo
+        digitalWrite(dirNeg,HIGH); //inicia movimiento en sentido X negativo
         digitalWrite(enaNeg,HIGH);
         digitalWrite(stepPin,HIGH);
         delayMicroseconds(stepdelayInsp);
