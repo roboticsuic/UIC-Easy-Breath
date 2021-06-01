@@ -10,7 +10,7 @@ Remember that we are a group of undergraduates students, so this project is educ
 
 
 
-**To contact us**
+**To contact us:**
 
 Laura Olariaga:lolariaga@uic.es 
 
