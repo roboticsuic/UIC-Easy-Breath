@@ -158,8 +158,6 @@ delay(3000);
     delay(3000);
 } 
   
-void(* resetFunc) (void) = 0;//declare reset function at address 0
-
 void loop() {
   
     //test para contar el tiempo
