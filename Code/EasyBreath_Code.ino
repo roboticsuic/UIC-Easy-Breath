@@ -20,7 +20,6 @@ const int dirNeg= 10; //DIRECTION-
 int Scl=12; //includes sensor and screen. Clock
 int Sda=11; //includes sensor and screen. Data
 int sensorValue=0; //value 0 of sensor at the beginning
-int inputpinSensor=9; //input pin of the sensor
 int presion=0; //value 0 of pressure at the beginning
 
 
