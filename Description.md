@@ -12,7 +12,7 @@ The project is developed on the basis of a previous project that we found in Thi
 
 
 
-_1. Objectives_: 
+**_1. Objectives:_**
 
 - Learn the basics of 3D printing and electronics in order to create a bioengineered breathing assistant for COVID-19.
 - Create an accessible and fast 3D printed device in order to cover the urgent necessities during the COVID pandemic.
@@ -20,7 +20,7 @@ _1. Objectives_:
 - Be able to generate an Arduino code able to mimic the movements of the preexisting breathing machines, with the corresponding sensor.
 
 
-_2. Materials_: 
+**_2. Materials:_**
 
 - For 3D printing: 
    - Blue, white and grey PLA.
@@ -57,7 +57,7 @@ _2. Materials_:
    - Directionality valves.
    - Filter.
 
-_3. Definitions_:
+**_3. Definitions_:**
 
 **MKR 1000 WIFI**:
 - Price: 26.50€ 
@@ -150,12 +150,90 @@ _3. Definitions_:
 ![VolatgeConverter](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/VolatgeConverter.jpg)
 
 
-_4. Code_: 
+**_4. Code_:**
+Here you will find the main explanation of our code. The entire code is in the _CODE_ folder.
 
-Our code starts with the needed libraries to connect all the devices together. The needed ones are: _Wire_, _SerLCD_, and _Honeywell.ABP_.
+_Libraries:_
+   - From line 1 to 4.
+   - Libraries used:
+        - Wire: Communicates with the IC2.
+        - SerLCD: Communicates with the screen.
+        - Honeywell_ABP: Communicates with the pressure sensor.
+
+_Pressure Sensor:_
+    - From line 7 to 12.
+    - Used for: insert the basics parameters of the sensor.
 
 
-_5. Softwares_: 
+_Arduino connections:_
+    - From line 14 to 24.
+    - Used for: connect all the devices (screen, driver,…) to Arduino.
+
+_Calculations:_
+    - From line 27 to 51.
+    - Used for: Modulate the respirator depending on the patient’s needs.
+
+_Communications with Monitor Serie:_
+    - From line 55 to 57.
+    - Highlight:
+        - Serial.begin(9600)→ 9600ms are the velocity that the massage is send to the Monitor Serie.
+        - Serial.setTimeout(100)→ 100ms are the waiting time to print in the screen.
+
+_Define Inputs&Outputs:_
+    - From line 60 to 67.
+    - Highlight:
+        - pinMode(finalcarrera,INPUT_PULLUP)→ Pullup as monitor the state of a switch 
+        - Scl→ Is the system clock.
+        - Sda→ Is the system data.
+
+_Screen parameters:_
+    - From line 71 to 74.
+    - Used for: modulate the contrast and the brightness. 
+
+_Screen communications with the Monitor Serie:_
+    - From line 78 to 117.
+    - Used for:
+        - Displacement
+        - Breathing per minute (rpm)
+            - Line 163: Total breathing counting.
+                - As is an integer, its limit is 32 bits or 2.147.483.647 rpm.
+        - Ratio inhalation/expiration 
+
+_Medical Calculations:_
+    - From line 120 to 159
+    - Used for: Modulate the ventilator for the patient.
+
+_Calculations during process:_
+    - Inhalation
+        - From line 170 to 179.
+        - Highlight: 
+            -  digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
+    - Expiration
+        - From line 198 to 208.
+        - Highlight:
+            -  digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
+            
+_Limit switch and Buzzer:_
+    - Used for: 
+        - If low:
+            - From line 183 to 194.
+            - It will show an error, as the machine is obstructed and isn’t working.
+            - When an error, the buzzer sounds.
+        - If high:
+            - From line 202 to 209.
+            - Is for the expiration movements.
+            - When the limit switch is high, it means that the motor has reach the maximal position, and it turns to the other direction (X negative)
+
+_Pressure Sensor:_
+    - From line 211 to 226.
+    - Used for
+        - If no extra pressure: the sensor is working but without reporting the information on the screen.
+        - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
+            - The screen reports the number in cmH2O.
+            - The buzzer sounds for 1 second.
+
+
+**_5. Softwares_:**
 
 **SolidWorks**
 
@@ -190,11 +268,7 @@ _Prusa Slicer_, is a cutting software, which converts 3D models into G-code file
 ![Meshmixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Meshmixer.png)
 
 
-_6. Conclusions_:
+**_6. Conclusions_:**
 
 Once our final project is done, we can conclude the following statemnts:
 
-1.- A mechanical ventilator is able to be printed with a conventional printer machine.
-2.- Arduino is a properly device to control heavy files.
-3.- A structured document helps to improve existents projects.
-4.- 
