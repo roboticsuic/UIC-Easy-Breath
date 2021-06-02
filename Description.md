@@ -160,7 +160,7 @@ _Libraries:_
         - SerLCD: Communicates with the screen.
         - Honeywell_ABP: Communicates with the pressure sensor.
 
-_Pressure SensoR_
+_Pressure Sensor_
    - From line 7 to 12.
    - Used for: insert the basics parameters of the sensor.
 
@@ -199,38 +199,36 @@ _Screen communications with the Monitor Serie:_
             - As is an integer, its limit is 32 bits or 2.147.483.647 rpm.
       - Ratio inhalation/expiration 
 
-_Medical Calculations:_
-    - From line 120 to 159
-    - Used for: Modulate the ventilator for the patient.
+_Medical Calculation_
+   - From line 120 to 159.
+   - Used for: Modulate the ventilator for the patient.
 
 _Calculations during process:_
-    - Inhalation
-        - From line 170 to 179.
-        - Highlight: 
-            -  digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
-    - Expiration
-        - From line 198 to 208.
-        - Highlight:
-            -  digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
+   - Inhalation_
+      - From line 170 to 179.
+            - Highlight: digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
+   - Expiration:
+      - From line 198 to 208.
+            - Highlight: digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
             
 _Limit switch and Buzzer:_
-    - Used for: 
-        - If low:
+   - Used for:
+      - If low:
             - From line 183 to 194.
             - It will show an error, as the machine is obstructed and isn’t working.
             - When an error, the buzzer sounds.
-        - If high:
-            - From line 202 to 209.
-            - Is for the expiration movements.
-            - When the limit switch is high, it means that the motor has reach the maximal position, and it turns to the other direction (X negative)
+       - If high:
+             - From line 202 to 209.
+             - Is for the expiration movements.
+             - When the limit switch is high, it means that the motor has reach the maximal position, and it turns to the other direction (X negative)
 
 _Pressure Sensor:_
-    - From line 211 to 226.
-    - Used for
-        - If no extra pressure: the sensor is working but without reporting the information on the screen.
-        - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
-            - The screen reports the number in cmH2O.
-            - The buzzer sounds for 1 second.
+   - From line 211 to 226.
+   - Used for::
+       - If no extra pressure: the sensor is working but without reporting the information on the screen.
+       - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
+               - The screen reports the number in cmH2O.
+               -  The buzzer sounds for 1 second.
 
 
 **_5. Softwares_:**
