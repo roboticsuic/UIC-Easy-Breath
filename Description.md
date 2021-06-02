@@ -195,7 +195,7 @@ _Screen communications with the Monitor Serie:_
    - Used for:
       - Displacement
       - Breathing per minute (rpm)
-         -Line 163: Total breathing counting.
+         - Line 163: Total breathing counting.
             - As is an integer, its limit is 32 bits or 2.147.483.647 rpm.
       - Ratio inhalation/expiration 
 
