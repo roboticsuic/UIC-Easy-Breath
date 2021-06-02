@@ -160,44 +160,44 @@ _Libraries:_
         - SerLCD: Communicates with the screen.
         - Honeywell_ABP: Communicates with the pressure sensor.
 
-_Pressure Sensor:_
-    - From line 7 to 12.
-    - Used for: insert the basics parameters of the sensor.
+_Pressure SensoR_
+   - From line 7 to 12.
+   - Used for: insert the basics parameters of the sensor.
 
 
-_Arduino connections:_
-    - From line 14 to 24.
-    - Used for: connect all the devices (screen, driver,…) to Arduino.
+_Arduino connection_
+   - From line 14 to 24.
+   - Used for: connect all the devices (screen, driver,…) to Arduino.
 
-_Calculations:_
-    - From line 27 to 51.
-    - Used for: Modulate the respirator depending on the patient’s needs.
+_Medical calculations:_
+   - From line 27 to 51.
+   - Used for: Modulate the respirator depending on the patient’s needs.
 
 _Communications with Monitor Serie:_
-    - From line 55 to 57.
-    - Highlight:
-        - Serial.begin(9600)→ 9600ms are the velocity that the massage is send to the Monitor Serie.
-        - Serial.setTimeout(100)→ 100ms are the waiting time to print in the screen.
+   - From line 55 to 57.
+   - Highlight:
+      - Serial.begin(9600)→ 9600ms are the velocity that the massage is send to the Monitor Serie.
+      - Serial.setTimeout(100)→ 100ms are the waiting time to print in the screen.
 
-_Define Inputs&Outputs:_
-    - From line 60 to 67.
-    - Highlight:
-        - pinMode(finalcarrera,INPUT_PULLUP)→ Pullup as monitor the state of a switch 
-        - Scl→ Is the system clock.
-        - Sda→ Is the system data.
+_Define Inputs&Output:_
+   - From line 60 to 67.
+   - Highlight:
+      - pinMode(finalcarrera,INPUT_PULLUP)→ Pullup as monitor the state of a switch 
+      - Scl→ Is the system clock.
+      - Sda→ Is the system data.
 
 _Screen parameters:_
-    - From line 71 to 74.
-    - Used for: modulate the contrast and the brightness. 
+   - From line 71 to 74.
+   - Used for: modulate the contrast and the brightness. 
 
 _Screen communications with the Monitor Serie:_
-    - From line 78 to 117.
-    - Used for:
-        - Displacement
-        - Breathing per minute (rpm)
-            - Line 163: Total breathing counting.
-                - As is an integer, its limit is 32 bits or 2.147.483.647 rpm.
-        - Ratio inhalation/expiration 
+   - From line 78 to 117.
+   - Used for:
+      - Displacement
+      - Breathing per minute (rpm)
+         -Line 163: Total breathing counting.
+            - As is an integer, its limit is 32 bits or 2.147.483.647 rpm.
+      - Ratio inhalation/expiration 
 
 _Medical Calculations:_
     - From line 120 to 159
