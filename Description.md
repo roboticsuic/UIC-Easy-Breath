@@ -206,29 +206,29 @@ _Medical Calculation_
 _Calculations during process:_
    - Inhalation_
       - From line 170 to 179.
-            - Highlight: digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
+         - Highlight: digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
    - Expiration:
       - From line 198 to 208.
-            - Highlight: digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
+          - Highlight: digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
             
 _Limit switch and Buzzer:_
    - Used for:
       - If low:
-            - From line 183 to 194.
-            - It will show an error, as the machine is obstructed and isn’t working.
-            - When an error, the buzzer sounds.
+       - From line 183 to 194.
+       - It will show an error, as the machine is obstructed and isn’t working.
+       - When an error, the buzzer sounds.
        - If high:
-             - From line 202 to 209.
-             - Is for the expiration movements.
-             - When the limit switch is high, it means that the motor has reach the maximal position, and it turns to the other direction (X negative)
+          - From line 202 to 209.
+          - Is for the expiration movements.
+          - When the limit switch is high, it means that the motor has reach the maximal position, and it turns to the other direction (X negative)
 
 _Pressure Sensor:_
    - From line 211 to 226.
    - Used for::
        - If no extra pressure: the sensor is working but without reporting the information on the screen.
        - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
-               - The screen reports the number in cmH2O.
-               - The buzzer sounds for 1 second.
+          - The screen reports the number in cmH2O.
+          - The buzzer sounds for 1 second.
              
 **_5. Softwares_:**
 
