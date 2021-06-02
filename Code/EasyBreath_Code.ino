@@ -160,7 +160,7 @@ delay(3000);
 void loop() {
   
     //test para contar el tiempo
-    i= i + 1;
+    i= i + 1; //int limit = 32 bits = 2.147.483.647
     lcd.clear();
     lcd.print("Respiracion num: ");
     lcd.println(i);
