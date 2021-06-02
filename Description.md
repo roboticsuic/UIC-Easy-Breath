@@ -228,9 +228,8 @@ _Pressure Sensor:_
        - If no extra pressure: the sensor is working but without reporting the information on the screen.
        - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
                - The screen reports the number in cmH2O.
-               -  The buzzer sounds for 1 second.
-
-
+               - The buzzer sounds for 1 second.
+             
 **_5. Softwares_:**
 
 **SolidWorks**
