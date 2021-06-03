@@ -211,8 +211,10 @@ We have used common conexions for several components which end up in the same pi
 
 
 **_5. Code_:**
+   
 Here you will find the main explanation of our code. The entire code is in the _CODE_ folder.
 
+   
 _Libraries:_  
    - Wire: Communicates with the IC2.
    - SerLCD: Communicates with the screen.
@@ -226,56 +228,40 @@ _Communications with Monitor Serie:_
    - Serial.setTimeout(100)→ 100ms are the waiting time to print in the screen.
 
 _Define Inputs&Output:_
-   - From line 60 to 67.
-   - Highlight:
-      - pinMode(finalcarrera,INPUT_PULLUP)→ Pullup as monitor the state of a switch 
-      - Scl→ Is the system clock.
-      - Sda→ Is the system data.
-
-_Screen parameters:_
-   - From line 71 to 74.
-   - Used for: modulate the contrast and the brightness. 
+  - pinMode(finalcarrera,INPUT_PULLUP)→ Pullup as monitor the state of a switch.
+  - Scl→ Is the system clock.
+  - Sda→ Is the system data.
 
 _Screen communications with the Monitor Serie:_
-   - From line 78 to 117.
    - Used for:
       - Displacement
       - Breathing per minute (rpm)
-         - Line 163: Total breathing counting.
-            - As is an integer, its limit is 32 bits or 2.147.483.647 rpm.
+         - Total breathing counting; as is an integer, its limit is 32 bits or 2.147.483.647 rpm.
       - Ratio inhalation/expiration 
-
-_Medical Calculation_
-   - From line 120 to 159.
-   - Used for: Modulate the ventilator for the patient.
 
 _Calculations during process:_
    - Inhalation_
-      - From line 170 to 179.
-         - Highlight: digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
+      - digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
    - Expiration:
-      - From line 198 to 208.
-          - Highlight: digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
+      - digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
             
 _Limit switch and Buzzer:_
    - Used for:
       - If low:
-       - From line 183 to 194.
-       - It will show an error, as the machine is obstructed and isn’t working.
-       - When an error, the buzzer sounds.
+          - It will show an error, as the machine is obstructed and isn’t working.
+          - When an error, the buzzer sounds.
        - If high:
-          - From line 202 to 209.
           - Is for the expiration movements.
           - When the limit switch is high, it means that the motor has reach the maximal position, and it turns to the other direction (X negative)
 
 _Pressure Sensor:_
-   - From line 211 to 226.
-   - Used for::
-       - If no extra pressure: the sensor is working but without reporting the information on the screen.
-       - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
-          - The screen reports the number in cmH2O.
-          - The buzzer sounds for 1 second.
-             
+   - If no extra pressure: the sensor is working but without reporting the information on the screen.
+   - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
+         - The screen reports the number in cmH2O.
+         - The buzzer sounds for 1 second.
+          
+   
+   
 **_6. Softwares_:**
 
 **SolidWorks**
