@@ -150,6 +150,7 @@ The project is developed on the basis of a previous project that we found in Thi
 ![VolatgeConverter](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/VolatgeConverter.jpg)
 
 **_4. Circuit_:**
+
 This is the cricuit we have proposed, nonetheless, conexions can be modified as one wishes:
 
 **Pressure sensor**
