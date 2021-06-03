@@ -178,8 +178,18 @@ This is the cricuit we have proposed, nonetheless, conexions can be modified as 
       
    
    
+   
+   
 **Buzzer** 
 ![Buzzer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Buzzer.PNG)
+  
+   
+   
+   
+   
+   
+   
+   
    
    
    
