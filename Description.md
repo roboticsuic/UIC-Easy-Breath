@@ -213,31 +213,17 @@ We have used common conexions for several components which end up in the same pi
 **_5. Code_:**
 Here you will find the main explanation of our code. The entire code is in the _CODE_ folder.
 
-_Libraries:_
-   - From line 1 to 4.
-   - Libraries used:
-        - Wire: Communicates with the IC2.
-        - SerLCD: Communicates with the screen.
-        - Honeywell_ABP: Communicates with the pressure sensor.
-
-_Pressure Sensor_
-   - From line 7 to 12.
-   - Used for: insert the basics parameters of the sensor.
-
-
-_Arduino connection_
-   - From line 14 to 24.
-   - Used for: connect all the devices (screen, driver,…) to Arduino.
+_Libraries:_  
+   - Wire: Communicates with the IC2.
+   - SerLCD: Communicates with the screen.
+   - Honeywell_ABP: Communicates with the pressure sensor.
 
 _Medical calculations:_
-   - From line 27 to 51.
-   - Used for: Modulate the respirator depending on the patient’s needs.
+   - Used to modulate the respirator depending on the patient’s needs.
 
-_Communications with Monitor Serie:_
-   - From line 55 to 57.
-   - Highlight:
-      - Serial.begin(9600)→ 9600ms are the velocity that the massage is send to the Monitor Serie.
-      - Serial.setTimeout(100)→ 100ms are the waiting time to print in the screen.
+_Communications with Monitor Serie:_     
+   - Serial.begin(9600)→ 9600ms are the velocity that the massage is send to the Monitor Serie.
+   - Serial.setTimeout(100)→ 100ms are the waiting time to print in the screen.
 
 _Define Inputs&Output:_
    - From line 60 to 67.
