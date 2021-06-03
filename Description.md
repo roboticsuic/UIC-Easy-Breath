@@ -153,19 +153,19 @@ The project is developed on the basis of a previous project that we found in Thi
 This is the cricuit we have proposed, nonetheless, conexions can be modified as one wishes:
 
 **Pressure sensor**
-<<See picture in definitions section>>
+_See picture in definitions section._
 - 3.3V corresponds to 5V
 - SDA and SCL are connected to arduino
 - The two remaining pins are not used
 
 **XL4015 DC Voltage Converter**
-<<See picture in definitions section>> 
+_See picture in definitions section._ 
 - IN+/- connected to voltage source 12V
 - OUT+ connected to VIN arduino MK1000
 - OUT- connected to GND arduino MK1000
 
 **Driver TB6600 and Stepper motor NEMA 17**
-<<See picture in definitions section>>   
+_See picture in definitions section._   
 - ENA- pin 8
 - ENA+, DIR+, PULL+ → 3.3V 
 - DIR- pin 10
