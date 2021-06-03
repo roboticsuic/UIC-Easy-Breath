@@ -42,7 +42,7 @@ The project is developed on the basis of a previous project that we found in Thi
    - Screen SparkFun SerLCD.
    - Energy source 24V (5A).
    - Power regulator step down (24V to 10V).
-   - Electric limit switch.
+   - Mechanical limit switch.
    - Pressure sensor (001PG2A5).
    - Buzzer.
    - Voltage conversor.
@@ -85,7 +85,7 @@ The project is developed on the basis of a previous project that we found in Thi
  ![ArduinoMKR1000](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/ArduinoMKR1000.jpg)
 
 
-**Sensor Pressure**:
+**Pressure Sensor**:
 - Price: 16,08€
 - Manufactures: Honeywell.
 - Model: 001PG2A5.
@@ -149,8 +149,45 @@ The project is developed on the basis of a previous project that we found in Thi
 - Functions: Step-down converter with overcurrent protection.
 ![VolatgeConverter](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/VolatgeConverter.jpg)
 
+**_4. Circuit_:**
+This is the cricuit we have proposed, nonetheless, conexions can be modified as one wishes:
 
-**_4. Code_:**
+**Pressure sensor**
+<<See picture in definitions section>>
+- 3.3V corresponds to 5V
+- SDA and SCL are connected to arduino
+- The two remaining pins are not used
+
+**XL4015 DC Voltage Converter**
+<<See picture in definitions section>> 
+- IN+/- connected to voltage source 12V
+- OUT+ connected to VIN arduino MK1000
+- OUT- connected to GND arduino MK1000
+
+**Driver TB6600 and Stepper motor NEMA 17**
+<<See picture in definitions section>>   
+- ENA- pin 8
+- ENA+, DIR+, PULL+ → 3.3V 
+- DIR- pin 10
+- PULL- pin 6
+- B- (black), B+ (green), A- (red), A+ (blue) → stepper motor
+- GND, Vcc → voltage source 24V 
+
+**Screen SparkFun SerLCD**
+   
+**Buzzer**
+   
+**Limit Switch**
+
+_Notes:_
+We have used common conexions for several components which end up in the same pin.
+- A common conexion for SDA and SLA for the pressure sensor and the screen in arduino pins.
+- OUT- from the voltage conversor is connected to GND arduino, while GND connections in the pressure sensor, buzzer, limit switch and screen are commonly connected to the first one.
+- Vcc pin from arduino is commonly connected to ENA+, DIR+, PULL+ and 3.3V pin from screen.
+
+
+
+**_5. Code_:**
 Here you will find the main explanation of our code. The entire code is in the _CODE_ folder.
 
 _Libraries:_
@@ -230,7 +267,7 @@ _Pressure Sensor:_
           - The screen reports the number in cmH2O.
           - The buzzer sounds for 1 second.
              
-**_5. Softwares_:**
+**_6. Softwares_:**
 
 **SolidWorks**
 
@@ -265,7 +302,7 @@ _Prusa Slicer_, is a cutting software, which converts 3D models into G-code file
 ![Meshmixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Meshmixer.png)
 
 
-**_6. Conclusions_:**
+**_7. Conclusions_:**
 
 Once our final project is done, we can conclude the following statemnts:
 
