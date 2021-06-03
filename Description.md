@@ -175,7 +175,7 @@ This is the cricuit we have proposed, nonetheless, conexions can be modified as 
 
 **Screen SparkFun SerLCD**
    
-**Buzzer**
+**Buzzer** ![Buzzer] (https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Buzzer.PNG)
    
 **Limit Switch**
 
