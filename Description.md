@@ -149,6 +149,8 @@ The project is developed on the basis of a previous project that we found in Thi
 - Functions: Step-down converter with overcurrent protection.
 ![VolatgeConverter](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/VolatgeConverter.jpg)
 
+
+
 **_4. Circuit_:**
 
 This is the cricuit we have proposed, nonetheless, conexions can be modified as one wishes:
@@ -214,6 +216,9 @@ We have used common conexions for several components which end up in the same pi
 
 
 
+
+
+
 **_5. Code_:**
    
 Here you will find the main explanation of our code. The entire code is in the _CODE_ folder.
@@ -266,6 +271,8 @@ _Pressure Sensor:_
           
    
    
+   
+   
 **_6. Softwares_:**
 
 **SolidWorks**
@@ -299,6 +306,10 @@ _Ultimaker Cura_ is a cutting software, which converts 3D models into G-code fil
 _Prusa Slicer_, is a cutting software, which converts 3D models into G-code files, which will provide the 3D printer with all the necessary instructions for printing. We also used this software to print the adaptor but with the correct support in order to be printed accurately. See picture below.
 
 ![Meshmixer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/3D%20files/Meshmixer.png)
+
+
+
+
 
 
 **_7. Conclusions_:**
