@@ -266,6 +266,7 @@ _Prusa Slicer_, is a cutting software, which converts 3D models into G-code file
 
 
 **_6. Conclusions_:**
+
 Once our final project is done, we can conclude the following statemnts:
 
 The aim of the project was to create a mechanical ventilator that worked automatically and was able to surpass common errors without the help of a medical assistant. The structural parts were printed with a MK3 PRUSA 3D printer with PLA in blue and grey colors. The box that holds all the electronics is composed of five parts that bind together by holes and extrusions, has a hole for the cables to pass, and has the Easy Breath logo in the front. The Arduino used was the MKR1000 model that combines the switch, sensor pressure, I2C screen, driver, buzzer, voltage converter, and stepper motor. The whole structure is connected to a 24V and 12V power supply. Errors that the program described can solve include: the detection of an increase of pressure of over 10 cmH2O that it showed in the screen visually and by a sound by the buzzer, and the detection of an early click of the switch button before it is necessary, the buzzer will also make a sound.
