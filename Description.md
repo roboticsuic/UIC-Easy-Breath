@@ -174,13 +174,17 @@ This is the cricuit we have proposed, nonetheless, conexions can be modified as 
 - GND, Vcc → voltage source 24V 
 
 **Screen SparkFun SerLCD**
-![Screen%20LCD] (https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Screen%20LCD.PNG)
+![Screen%20LCD](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Screen%20LCD.PNG)
       
+   
+   
 **Buzzer** 
-![Buzzer] (https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Buzzer.PNG)
+![Buzzer](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Buzzer.PNG)
+   
+   
    
 **Limit Switch**
-![Limit%20switch] (https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Limit%20switch.PNG)
+![Limit%20switch](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Limit%20switch.PNG)
 
 _Notes:_
 We have used common conexions for several components which end up in the same pin.
