@@ -153,7 +153,7 @@ The project is developed on the basis of a previous project that we found in Thi
 
 **_4. Circuit_:**
 
-This is the cricuit we have proposed, nonetheless, conexions can be modified as one wishes:
+This is the circuit we have proposed, nonetheless, conexions can be modified as one wishes:
 
 **Pressure sensor**
 
@@ -237,7 +237,7 @@ _Communications with Monitor Serie:_
    - Serial.setTimeout(100)→ 100ms are the waiting time to print in the screen.
 
 _Define Inputs&Output:_
-  - pinMode(finalcarrera,INPUT_PULLUP)→ Pullup as monitor the state of a switch.
+  - pinMode(finalcarrera, INPUT_PULLUP)→ Pullup as monitor the state of a switch.
   - Scl→ Is the system clock.
   - Sda→ Is the system data.
 
@@ -250,9 +250,9 @@ _Screen communications with the Monitor Serie:_
 
 _Calculations during process:_
    - Inhalation_
-      - digitalWrite(dirNeg,HIGH)→ High as the movement is in X negative.
+      - digitalWrite(dirNeg, HIGH)→ High as the movement is in X negative.
    - Expiration:
-      - digitalWrite(dirNeg,LOW)→ Low as the movement is in X positive.
+      - digitalWrite(dirNeg, LOW)→ Low as the movement is in X positive.
             
 _Limit switch and Buzzer:_
    - Used for:
