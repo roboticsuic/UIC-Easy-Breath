@@ -154,6 +154,8 @@ The project is developed on the basis of a previous project that we found in Thi
 **_4. Circuit_:**
 
 This is the circuit we have proposed, nonetheless, conexions can be modified as one wishes:
+![Connections](https://github.com/roboticsuic/UIC-Easy-Breath/blob/main/Extra/Connections.jpeg)
+
 
 **Pressure sensor**
 
