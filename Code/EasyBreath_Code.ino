@@ -230,3 +230,57 @@ void loop() {
 lcd.clear();
 
 }
+
+ reiniciar(); // Con ;. Vuelve a calcular los parámetros iniciales.
+ lcd.clear();
+ lcd.println("Parámetros nuevos");
+ delay(500);        // ...for 1sec
+} // Cierra el loop
+
+void reiniciar()  // Sin ; porque estamos definiendo.
+  {
+    lcd.clear(); //Clear the display - this moves the cursor to home position as well
+      lcd.print("DESPLAZAMIENTO  mm (50 - 80):");
+      while (!Serial.available() > 0);   // Esperamos valor
+       {
+          disp = Serial.readString().toInt();
+        
+          lcd.clear();
+          lcd.print("DESPLAZAMIENTO  SELEC: ");
+          lcd.print(disp);
+          lcd.print(" ");
+        {
+     delay(3000);
+    
+     //Leemos valor respiraciones minuto
+     lcd.clear(); //Clear the display - this moves the cursor to home position as well
+     lcd.print("RESPIRACIONES MINUTO (10 - 20):");
+     while (!Serial.available() > 0);   // Esperamos valor
+      {
+          RPM = Serial.readString().toInt();
+          
+          lcd.clear();
+          lcd.print("RESPIRACIONES   SELEC: ");
+          lcd.print(RPM);
+          lcd.print(" ");
+        }
+    delay(3000);
+    
+ 
+lcd.clear();
+
+       //Leemos valor Ratio I/E
+     lcd.clear(); //Clear the display - this moves the cursor to home position as well
+     lcd.print("RATIO I/E       (1, 2, 3, 4):");
+     while (!Serial.available() > 0);   // Esperamos valor
+      {
+          ratio = Serial.readString().toInt();
+          
+          lcd.clear();
+          lcd.print("RATIO I/E       SELEC: 1:");
+          lcd.print(ratio);
+          lcd.print(" ");
+        }
+    delay(3000);
+      
+    }
