@@ -258,7 +258,7 @@ _Calculations during process:_
             
 _Limit switch and Buzzer:_
    - Used for:
-      - If low:
+       - If low:
           - It will show an error, as the machine is obstructed and isn’t working.
           - When an error, the buzzer sounds.
        - If high:
@@ -266,11 +266,15 @@ _Limit switch and Buzzer:_
           - When the limit switch is high, it means that the motor has reach the maximal position, and it turns to the other direction (X negative)
 
 _Pressure Sensor:_
-   - If no extra pressure: the sensor is working but without reporting the information on the screen.
-   - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
-         - The screen reports the number in cmH2O.
-         - The buzzer sounds for 1 second.
-          
+   - Used for:
+       - If no extra pressure: the sensor is working but without reporting the information on the screen.
+       - If too much pressure: the sensor detects this increase. Without stopping the ventilator, there are some modifications:
+          - The screen reports the number in cmH2O.
+          - The buzzer sounds for 1 second.
+    
+_Reset:_
+   - Used to reset the program when necessary, restarting it again at the introduction of new variables.
+     
    
    
    
