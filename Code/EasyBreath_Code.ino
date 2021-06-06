@@ -231,13 +231,13 @@ lcd.clear();
 
 }
 
- reiniciar(); // Con ;. Vuelve a calcular los parámetros iniciales.
+ reiniciar(); // Llamámos a la función 'reiniciar'.
  lcd.clear();
  lcd.println("Parámetros nuevos");
  delay(500);        // ...for 1sec
 } // Cierra el loop
 
-void reiniciar()  // Creamos nueva función para rieniciar el equipo cuando sea necesario.
+void reiniciar()  // Creamos una nueva función para reiniciar el equipo cuando sea necesario.
   {
     lcd.clear(); //Clear the display - this moves the cursor to home position as well
       lcd.print("DESPLAZAMIENTO  mm (50 - 80):");
