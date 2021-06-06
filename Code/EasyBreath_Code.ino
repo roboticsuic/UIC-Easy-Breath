@@ -229,8 +229,20 @@ void loop() {
 
 lcd.clear();
 
-}
+  while (!Serial.available() > 0);   // Esperamos valor
+   {
+       // read the incoming string:
+    String incomingString = Serial.readStringUntil('\n');
 
+    // prints the received data
+    Serial.print("Ventilator is going to restart, as received ");
+    Serial.println(incomingString);
+    lcd.clear();
+    lcd.println("Ventilator is going to restart");                //Crear alarma que pare la máquina
+    lcd.println();
+  }
+
+ 
  reiniciar(); // Llamámos a la función 'reiniciar'.
  lcd.clear();
  lcd.println("Parámetros nuevos");
