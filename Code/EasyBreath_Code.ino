@@ -237,7 +237,7 @@ lcd.clear();
  delay(500);        // ...for 1sec
 } // Cierra el loop
 
-void reiniciar()  // Sin ; porque estamos definiendo.
+void reiniciar()  // Creamos nueva función para rieniciar el equipo cuando sea necesario.
   {
     lcd.clear(); //Clear the display - this moves the cursor to home position as well
       lcd.print("DESPLAZAMIENTO  mm (50 - 80):");
